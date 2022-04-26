@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 550px;
+  margin: 0;
+  font-family: Poppins, sans-serif;
+}
+
+nav {
+  height: 70px;
+  padding: 20px 36px;
+  display: flex;
+  box-shadow: 0 3px 7px #0000001a;
+}
+
+.nav--logo {
+  max-width: 100px;
+}
+
+.main--container {
+  padding: 26px 36px;
+}
+
+.Hero--image-grid {
+  width: 396px;
+  height: 232px;
+  object-fit: contain;
+  margin: auto;
+  display: block;
+  top: 96px;
+  left: 77px;
+}
+
+.Hero--title {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.Hero--text {
+  width: 320px;
+  height: 56px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 17px;
+}
+
+.Hero--title, .Hero--text {
+  text-align: left;
+}
+
+/*# sourceMappingURL=index.2cdaf7bc.css.map */
