@@ -8,6 +8,7 @@ import Star from "./assets/star.png"
 export default function App() {
         const dataItems = data.map(item =>{
             return <Card
+                key={item.id}
                 photo={item.coverImg}
                 star={Star}
                 rating={item.stats.rating}
@@ -15,6 +16,7 @@ export default function App() {
                 location={item.location}
                 title={item.title}
                 price={item.price}
+                openSpots={item.openSpots}
             />
             })
         return(
