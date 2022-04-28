@@ -1,4 +1,4 @@
-# Project AirBnb-Experience-clone
+# AirBnb-Experience-clone
 
 <img src="https://user-images.githubusercontent.com/99111208/165717547-523f6368-556b-41b6-8f6d-e72b520591c4.png">
 
