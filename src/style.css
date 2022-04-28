@@ -8,6 +8,14 @@ body {
     font-family: Poppins, sans-serif;
 }
 
+.gray{
+    color: #918E9B;
+}
+
+.bold{
+    font-weight: 600;
+}
+
 nav {
     height: 70px;
     display: flex;
@@ -15,40 +23,75 @@ nav {
     box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.1);
 }
 
+section{
+    padding: 20px;
+}
+
 .nav--logo {
     max-width: 100px;
 }
 
-.main--container{
+.hero{
     padding: 26px 36px;
+    display: flex;
+    flex-direction: column;
 }
 
-.Hero--image-grid{
-    width: 396px;
-    height: 232px;
-    left: 77px;
-    top: 96px;
-
-    object-fit: contain;
-    margin: auto;
-    display: block;
+.hero--image{
+    max-width: 400px;
+    align-self: center;
 }
 
 .Hero--title{
+    padding-top: 16px;
+    margin-bottom: 16px;
     font-size: 36px;
     font-weight: 600;
-    line-height: 40px;
 }
 
 .Hero--text{
+    margin-top: 0;
     font-size: 16px;
     font-weight: 300;
-    line-height: 17px;
     width: 320px;
-    height: 56px;
 }
 
 .Hero--title,
 .Hero--text {
-    text-align: left;
+    align-self: left;
+}
+
+.cards-list{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+}
+
+.card{
+    width: 175px;
+    font-size: 12px;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.card--photo{
+    border-radius: 9px;
+    width: 100%;
+    margin-bottom: 9px;
+
+}
+
+.card--stats{
+    display: flex;
+    align-items: center;
+}
+
+.card--star{
+    height: 12px;
+}
+
+.card--price{
+    margin-top: auto;
 }

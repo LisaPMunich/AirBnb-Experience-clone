@@ -1,32 +1,38 @@
 {
-  "name": "air-bnb",
-  "version": "1.0.0",
-  "description": "React app",
-  "source": "src/index.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel",
-    "start:html": "parcel src/index.html",
-    "watch": "parcel watch",
-    "build": "parcel build"
-  },
-  "author": "LisaPMunich",
-  "license": "ISC",
+  "name": "air-bnb-2",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "@babel/standalone": "^7.17.9",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.1.1",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
   },
-  "devDependencies": {
-    "@babel/core": "^7.17.9",
-    "@parcel/transformer-image": "^2.5.0",
-    "@parcel/transformer-sass": "^2.5.0",
-    "assert": "^2.0.0",
-    "buffer": "^6.0.3",
-    "os-browserify": "^0.3.0",
-    "parcel": "^2.5.0",
-    "path-browserify": "^1.0.1",
-    "process": "^0.11.10",
-    "util": "^0.12.4"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
