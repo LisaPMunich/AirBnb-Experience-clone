@@ -33,7 +33,7 @@ https://scrimba.com/learn/learnreact/
 ## Learnings
 
 * React Syntax
-* Process of building a React app from Scratch
+* Process of using Create React App
 * using map to access data
 * key prop
 * Props: receiving props in a component, destructuring props, passing in non-string props, pass object as props vs. spread object as props
